@@ -14,4 +14,19 @@ Skills
 Projects
 Contact 
 The design is responsive and optimized for desktop and mobile viewing.
-
+### Features
+Home Section : Home page.
+About Me Section: A brief introduction to my professional journey and personal background.
+Projects Section: A collection of key projects with descriptions and links to live versions or repositories.
+Skills Section: A display of the technologies and tools I am proficient in.
+Contact Form: A way for visitors to get in touch with me directly through the website.
+### Technology Used
+This portfolio website was built using the following technologies:
+HTML: For structuring the content.
+CSS: For styling and layout.
+JavaScript: For interactivity and dynamic content.
+Git & GitHub: For version control and collaboration.
+### Contributing
+Contributions are welcome! If you'd like to contribute to this portfolio website, feel free to fork this repository and submit a pull request. Before submitting, please ensure that your code adheres to the project's style guidelines and includes appropriate documentation.
+### Contact
+Portfolio : 
