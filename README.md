@@ -29,4 +29,4 @@ Git & GitHub: For version control and collaboration.
 ### Contributing
 Contributions are welcome! If you'd like to contribute to this portfolio website, feel free to fork this repository and submit a pull request. Before submitting, please ensure that your code adheres to the project's style guidelines and includes appropriate documentation.
 ### Contact
-Portfolio : https://sp4912.github.io/Portfolio/
+Portfolio : https://sp4912.github.io/spportfolio/
