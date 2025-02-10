@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>PORTFOLIO</span></a>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <button class="visit-btn"><a href="https://www.instagram.com/sptech_solutions_2025/">Instagram</a></button>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-container">
+            <img src="IMG-20240111-WA0002.jpg" alt="">
+            <div class="info-box">
+
+                <div class="text">
+                    <h1>SOHAM PAWAR</h1>
+                    <span>Full Stack Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn"><a href="soham_pawar_resume.pdf" target="_blank">Download CV</a></div>
+                    
+                    
+                    </div>
+
+                    <div class="socials">
+                        <a href="https://github.com/Sp4912"><i class="fa-brands fa-github"></i></a>
+                        <a href="http://www.linkedin.com/in/sohampawar-sp4912"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+            </div>
+    </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container"></div>
+        <h2 class="section-title">ABOUT</h2>
+         <div class="about-info"></div>
+         <P>Dedicated Java Full Stack Developer with a Bachelor’s Degree in Computer Science.<br> Skilled in creating responsive, user-friendly web applications and implementing robust server-side logic.<br> Strong problem-solving abilities and a passion for developing innovative solutions. <br> Committed to continuous learning and staying updated with industry trends.</P>
+         <div class="skills-container">
+            <div class="section-title">SKILLS</div>
+            <div class="skills-info"></div>
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+            </ol>
+              <br>
+              <ol>
+              <li>JAVA</li>
+              <li>BOOTSTRAP</li>
+              <li>SPRINGBOOT</li>
+              </ol>
+              <br>
+              <ol>
+              <li>NODE.JS</li>
+              <li>REACT.JS</li>
+              <li>MYSQL</li>
+              <li>MONGODB</li>
+            </ol>
+          </div>
+          
+        
+    </section>
+
+    <section id="project" class="project">
+        <div class="project-container"></div>
+        <h2 class="section-title">PROJECTS</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="Screenshot (64).png" alt="Project 1">
+                <h3>Product website</h3>
+                <p>Developed a responsive product website using HTML and CSS to showcase a range of products in an interactive and visually appealing manner. The website features a clean, user-friendly layout with multiple product categories, detailed descriptions, and high-quality images. It is optimized for both desktop and mobile devices to ensure seamless user experience across various screen sizes.</p>
+                <a href="https://sp4912.github.io/productwebsite/" target="_blank">View My Project</a>
+
+            </div>
+            <div class="card">
+                <img src="Screenshot (66).png" alt="Project 2">
+                <h3>Food Recipe website</h3>
+                <p>Created an engaging and responsive food recipe website using HTML and CSS, providing users with an easy-to-navigate platform to explore various recipes. The website is designed to showcase a variety of dishes with detailed ingredients, step-by-step instructions, and high-quality images, all organized in a visually appealing and user-friendly layout.</p>
+                <a href="https://sp4912.github.io/foodrecipe/" target="_blank">View My Project</a>
+            </div>
+            <div class="card">
+                <img src="Screenshot (65).png" alt="Project 3">
+                <h3>Blog website</h3>
+                <p>Developed a dynamic and responsive blog website using HTML and CSS to provide a platform for users to explore and engage with blog content. The website features a clean and intuitive layout, allowing users to easily navigate through posts, categories, and author information. It is optimized for a seamless experience on both desktop and mobile devices.</p>
+                <a href="https://sp4912.github.io/blogwebsite/" target="_blank">View My Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">CONTACT</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+            <input type="hidden" name="access_key" value="634d483d-8a4d-45f3-ae7f-3ae17353f2c9">
+        </form>
+        <div id="responseMessage" class="response-message"></div>
+    
+
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+<footer> @2025 Created By SP </footer>
+</html>
