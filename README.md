@@ -1,4 +1,4 @@
-# 💼 My Developer Portfolio
+# 💼 My Portfolio
 
 Welcome to my personal developer portfolio! This website showcases my skills, projects, resume, and contact details. Built using modern web technologies, it reflects my passion for clean design and interactive web development.
 
